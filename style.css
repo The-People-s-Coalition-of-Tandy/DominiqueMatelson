@@ -23,10 +23,10 @@ body{
 
 .albums{
     display: grid;
-    gap: 1rem;
+    /* gap: 1rem; */
     justify-content: center;
     justify-items: center;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     /* justify-content: center;
     gap: 4px;
     align-content: center;
@@ -51,4 +51,19 @@ body{
 .email{
     font-size: 1.5rem;
 
+}
+
+#prereleaseNotice{
+    border: 3px red ridge;
+    background-color: thistle;
+    padding: 4rem;
+    color: red;
+}
+
+.previous{
+    display: grid;
+    gap: 1rem;
+  justify-content: center; 
+    /* justify-items: stretch;   */
+    grid-template-columns: 1fr; 
 }
