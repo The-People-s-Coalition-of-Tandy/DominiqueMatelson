@@ -58,7 +58,9 @@ body{
     background-color: thistle;
     padding: 4rem;
     color: red;
-}
+    display: grid ;
+    justify-content: center;
+    justify-items: center;}
 
 .previous{
     display: grid;
